@@ -1,0 +1,272 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #f2f2f2;
+}
+header{
+  padding: 5px;
+  margin-top: 0;
+  font-family: sans-serif;
+  font-size: 14pt;
+  color: #f2f2f2;
+  background:  -webkit-linear-gradient(#4f4d4d, #747474);
+  background:  -o-linear-gradient(#4f4d4d, #747474);
+  background:  linear-gradient(#4f4d4d, #747474);
+  box-shadow: 0 0  20px #222;
+  text-shadow: 0 0  20px #000;
+}
+h4{
+  float: right;
+}
+h4, h3{
+ display: inline;
+}
+#content{
+  width: 100%;
+  height: 100%;
+}
+#divinfo{
+  margin-top: 3%;
+  width: 300px;
+  height: 80%;
+  text-align: center;
+  font-family: sans-serif;
+  color: #7c7a7a;
+  border-right: 1px solid #222;
+  float: left;
+  transition: all 1s ease;
+}
+#divinfo > #info > h1{
+  margin: 3%;
+}
+#divinfo > #info >  button{
+  margin: 5%;
+  border-style: solid;
+  border-color: #2f2f32;
+  background: #191e42;
+  color: #d1cdd1;
+  font-weight: bold;
+  padding: 15px;
+  width: 60%;
+  cursor: pointer;
+}
+#divinfo > #info >  button:hover{
+  background: #2c3050;
+}
+#prof{
+  position: relative;
+}
+#prof{
+  width: 150px;
+  height: 150px;
+  border:1px solid blue;
+  border-radius: 160px;
+  overflow: hidden;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+#prof > #imgprof{
+  background: #444;
+  width: 100%;
+  height: 100%;
+}
+#prof img{
+  height: 100%;
+}
+#contain{
+  margin: 0 auto;
+  margin-top: 10%;
+  padding: 20px;
+  background: #267cab;
+  width: 30%;
+  border-radius: 9px;
+  box-shadow: 0 0  20px #000;
+  text-align: center;
+}
+#contain > form > button, #contain > form > input{
+  margin: 5%;
+  border: 0;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 9px;
+  padding: 2%;
+}
+#contain > form > input{
+  width: 65%;
+}
+#contain > form > button{
+  color: #f2f2f2;
+  background: #7c7d79;
+  box-shadow: 0 0  20px #333;
+  font-size: 11pt;
+}
+#contain > form > button:hover{
+  background: #868783;
+  cursor: pointer;
+}
+#hello{
+  border: 2px solid #555;
+  width: 30%;
+  margin-top: 12%;
+  margin-left: 10%;
+  float: left;
+  padding: 2%;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+#hello > #hellotext, #hello > #helloinput{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+#hello > #hellotext > p{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+  color: #676262;
+  margin: 1.5%;
+  margin-left: 40%;
+  padding: 1%;
+}
+#hello > #helloinput > input{
+  margin: 2%;
+  padding: 1%;
+  width: 80%;
+  border-style: solid;
+  border-color: #5d575b;
+  background: #ccc9c9;
+  font-weight: bold;
+}
+#hello > #helloinput  button{
+  margin: 5%;
+  margin-top:8%;
+  margin-right: 15%;
+  padding: 2% 5% 2% 5%;;
+  background: #052542;
+  border: 0;
+  cursor: pointer;
+  color: #f5f5f5;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#hello > #helloinput  button:hover{
+  background: #133452;
+}
+#codes{
+  width: 100%;
+}
+#codes > #doorcode, #codes > #housenumber{
+  background: #96968d;
+  border: 2px solid #555;
+  width: 20%;
+  float: right;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #222;
+  margin: 5%;
+}
+#codes > #doorcode > div{
+  color: #f3f3f3;
+  background: #09347e;
+  margin-bottom: 20px;
+}
+ #codes > #housenumber{
+   text-align: left;
+ }
+ #codes > #housenumber > h1{
+   margin-top: 18px;
+   margin-left: 45%;
+ }
+ #codes > #housenumber > div{
+   color: #f3f3f3;
+   background: #09347e;
+   text-align: center;
+ }
+#codes > #housenumber > img{
+  width: 20%;
+  float: left;
+  top: 0px;
+  border: 0px 0px 0px 2px solid #444;
+}
+#menu{
+  display: none;
+  background: none;
+  color: #f3f3f3;
+  font-weight: bold;
+  border: 0;
+  padding: 2px;
+}
+#menu img{
+  width: 20px;
+}
+#tablecont{
+    background: #f9f9f9;
+}
+table {
+    background: #999; 
+    width: 60%; 
+    transition: all .5s;
+}
+table, .table td, .table th{
+    border: solid #666;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    margin: 0 0 0 320px;
+}
+table th{
+    background: #121662;
+    color: #f9f9f9;
+    font-family: sans-serif;
+}
+table td{
+    background: #222789;
+    color: #f9f9f9;
+    font-family: sans-serif; 
+    text-align: center;
+}
+.litlebutton{
+    cursor: pointer;
+    padding: 10px;
+    color: #666;
+    font-family: sans-serif;
+    font-size: 19pt;
+    position: relative;
+    float: left;
+    margin: 0 20px 0 20px;
+}
+.litlebutton:hover{
+    
+}
+#divPage > div > select{
+    padding: 5px;
+    background: #d2d2d3;
+    border: 1px solid #666;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin: 30px 5px 5px 20px;
+}
+@media only screen and (max-width:980px){
+  #contain{width: 50%}
+}
+@media only screen and (max-width:750px){
+  #divinfo{ position: fixed; background: #16537a; height: 100%; margin-top: 0; width: 100%; left: -100%;}
+  #hello{width: 60%; margin: 20%;}
+  #codes > #doorcode, #codes > #housenumber{width: 40%; margin: 4.6%;}
+  #menu{display: inline;}
+}
+@media only screen and (max-width:590px){
+
+  #contain{width: 100%; height: 100%; border-radius: 0; box-shadow: none; position: fixed; margin-top: 0;}
+}
+@media only screen and (max-width:500px){
+  #codes > #doorcode, #codes > #housenumber{width: 80%; margin: 10%;}
+}
+@media only screen and (max-width:375px){
+  #hello{width: 80%; margin: 10%;}
+}

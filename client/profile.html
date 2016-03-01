@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/functions.js" charset="utf-8"></script>
+  </head>
+  <body onLoad="onLoad();">
+    <header>
+      <button type="button" onclick='menu()' id='menu'>
+        <img src="img/menu.png" alt="" />
+      </button>
+      <h3>D2D</h3>
+      <h4 id="hname"><h4>
+    </header>
+    <div id="content">
+      <div id="divinfo">
+        <div id="prof">
+          <div id="imgprof"></div>
+        </div>
+        <div id="info">
+          <h1 id="iname"></h1>
+          <button onClick = "getUserInfo();">My Profile</button>
+          <button onClick = "getSpendReportPeriods();">Spendings Report</button>
+          <button onClick = "showPaymentsPage();">Payment History</button>
+        </div>
+      </div>
+			<div id="divPage">
+        <!-- content here -->
+			</div>
+			<div style="clear:both;"></div>
+    </div>
+    <div class="cover"></div>
+  </body>
+</html>
